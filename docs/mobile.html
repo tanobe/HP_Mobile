@@ -1,0 +1,454 @@
+<!DOCTYPE html lang="ja">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ゼミスマホ版サイト</title>
+    <meta name="descripton" content="PortFolio of masi" />
+    <link rel="stylesheet" href="css/base.css" />
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/lib/turn.js"></script>
+    <script type="text/javascript" src="js/lib/hash.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script type="text/javascript" src="js/portfolio.js"></script>
+  </head>
+
+  <body>
+    <!-- This website includes the work that is distributed in the Apache License 2.0-->
+
+    <div id="canvas">
+      <div id="flipbook">
+        <div ignore="1" class="tabs">
+          <div class="left">
+
+          </div>
+        </div>
+        <div id="test" class="change hard own-size"></div>
+        <div class="change hard own-size"></div>
+        <div>
+          <div class="icon"><img src="img/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg" /></div>
+          <div class="about">
+            <h1 style="text-align: center;">中谷ゼミ</h1>
+            <table>
+              <tbody>
+                <tr>
+                  <th><img src="img/grade.png" /></th>
+                  <td>法政大学経済学部</td>
+                </tr>
+                <tr>
+                  <th>
+                    <img src="img/favorite.png" />
+                  </th>
+                  <td>ようこそ中谷ゼミへ</td>
+                </tr>
+                <tr>
+                  <th><img src="img/twitter.png" /></th>
+                  <td>@nakgtgniseminar</a></td>
+                </tr>
+                <tr>
+                  <th><img src="img/github.png" /></th>
+                  <td>
+                    React,Vuejsを学習しています</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th><img src="img/blog.png" /></th>
+                  <td>
+                    気軽に下記のメールアドレスにご連絡下さい。</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th><img src="img/mail.png" /></th>
+                  <td>kai.tanobe.7h@stu.hosei.ac.jp</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <h1 id="history" style="text-align: center;">
+            教授紹介
+          </h1>
+          <ul>
+            <li>氏名：<strong>中谷安男（なかたにやすお）</strong></li>
+            <li>学位：慶應義塾大学経済学部経済学科 卒業</li>
+            <li>豪・マッコーリー大学大学院 応用言語学修士</li>
+            <li>英・バーミンガム大学大学院 応用言語学博士</li>
+            <li>
+              研究：言語学、外国語教育、経営学
+            </li>
+            <li>趣味：テニス、ピアノ、海外訪問</li>
+            <h2>著書</h2>
+            <li>大学生のためのアカデミック英文ライティング
+            大修館書店 (2016)
+            </li>
+            <li>
+              映画英語教育論 スクリーンプレイ(2003)
+            </li>
+            <li>
+              国際ビジネスコミュニケーション 丸善 (2010)
+            </li>
+            <li>
+              オックスフォードのスローライフ 新生出版
+            </li>
+            <li>
+              オーラル・コミュニケーション・ストラテジー研究 開文社出版 (2007)
+            <li>
+            商業英語研究と貿易研究の融合 成美堂(2002)
+            </li>
+            <li>
+              など他多数執筆！
+            </li>
+          </ul>
+        </div>
+
+
+        <div>
+          <h1 id="skills" style="text-align: center; margin-bottom: 0px;">
+            ゼミ概要
+          </h1>
+          <div class="about_container" style="margin-top: 10px;">
+            <div class="about_img">
+              <img src="img/about_us_img.jpg" class="about_us_img" alt="">
+            </div>
+            <div class="img_book">
+              <img src="img/book_img.jpg" class="img_book" alt="">
+            </div>
+          </div>
+          <p class="about_us" style="margin-left: 10px; margin-right: 10px; margin-top: 20px;">
+            中谷ゼミでは英語を用いてリーダーシップや国際マーケティングなど様々なことを学び、世界で活躍できるリーダーを育成します。
+            <br>
+            また実際に有名企業との合同プロジェクトを通して、実践型のマーケティングを学ぶ事もできます。
+          </p>
+
+          <p class="about_us" style="margin-left: 10px; margin-right: 10px; margin-top: 10px; text-align: center;">
+            <div class="about_us_text">
+              <h1 style="text-align: center;">活動について</h1>
+              <p style="margin-left: 50px;">サブゼミ &nbsp;月曜３限・5限
+              <br>本ゼミ&nbsp;&nbsp;&nbsp; 木曜4限・5限</p>
+            </div>
+          </p>
+        </div>
+        <div>
+          <h1 id="Works" style="text-align: center;">海外研修</h1>
+          <!-- <span id="forMobile"></span> -->
+
+          <!-- <a href="https://mesimasi.com"
+            ><div class="eachWork">
+              <img src="img/mesimasi.png" />
+              <p class="delete">
+                WordPressを用いたブログです。HTML/CSSを主に用いてスッキリ爽やかなイメージで自作テーマを作成しました。レスポンシブ対応済みです。
+              </p>
+            </div></a>
+          <a href="https://quiz.mesimasi.com">
+            <div class="eachWork">
+              <img src="img/typoglycemia.png" />
+              <p class="delete">
+                JavaのSpringBootを用いてクイズアプリを作成しました。DBの使い方やNginxなどのサーバーサイドについても理解を深めることができました。めしましのサブドメインで作成しSSL化も行いました。
+              </p>
+            </div></a
+          >
+          <div class="eachWork">
+            <h2>ポートフォリオ</h2>
+            <p class="delete">
+              このポートフォリオです。Turnjsをメインに用いて作成しました。シックな本をイメージし表紙や各ページ背景をデザインしました。
+              タブ機能自体はサンプルを真似しただけですが縦書きのタブインデックスにしたりとおもにCSS部分をこだわりました。
+            </p>
+          </div>
+          <a href="https://masibw.github.io/MRoulette/">
+            <div class="eachWork">
+              <img src="img/MRoulette.png" />
+              <p class="delete">
+                Vue.js,Nuxt.jsを用いて作成したルーレットアプリです。比率設定にも対応しています。Chart.jsを用いてルーレットの表示を行なっています。
+              </p>
+            </div>
+          </a> -->
+          <div class="oversea_img">
+            <img src="img/ross-parmly-rf6ywHVkrlY-unsplash.jpg" class="oversea_img">
+          </div>
+          <p class="oversea_text">中谷ゼミでは毎年春休みに海外研修を実施しています。
+          <br>研修国は年毎に異なります。現地を実際に訪れることで毎回新たな発見があります。
+          <br>※今年はコロナウイルスの為未定。
+          <br>
+          <br>過去訪問国
+          <br>ブルネイ・モンゴル・タイなど他多数。
+          </p>
+        </div>
+        <div>
+          <h1 id="Works" style="text-align: center;">事業提案会社</h1>
+          <span id="forMobile"></span>
+          <!-- <div>
+            <div class="eachWork">
+              <img src="img/DOUTINE.png" />
+              <p class="delete">
+                定期的に行う動作、いわゆるルーティンワークの管理を中心としたTODOアプリです。定期の更新や水槽の水の入れ替えなど決まった日に行うことではないが一定期間の後に行いたいものを管理できるようにするIOSアプリです。
+              </p>
+            </div>
+          </div>
+          <a href="https://masi-queston-box.tk">
+            <div class="eachWork">
+              <img src="img/masi-question-box.png" />
+              <p class="delete">
+                自分用の質問箱アプリです。Railsを用いて開発しサーバーにはGCPを使用しています。
+              </p>
+            </div>
+          </a> -->
+
+            <img src="img/comapny.jpg" class="company" alt="">
+            <p class="business_text">
+            <br>過去の新規事業提案先・講演実績
+            <br>学研様・クマヒラ様・サンリオ様・森永様・ホンダ様 <br> など他多数。
+            <br>企業様からの事業提案、ご依頼、ご講演、及び問合せを常時お待ちしております。
+            <br>
+            <br>次のページからは実際に行った企業様との実績パンフレットになります
+
+            </p>
+        </div>
+        <div>
+          <h1 style="text-align: center;">News</h1>
+          <img src="img/car.jpeg" alt="" class="car_img">
+        </div>
+        <div class="change hard fixed own-size"></div>
+        <div class="change hard own-size"></div>
+        <div ignore="1" class="tabs">
+          <div class="right"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var windowSize = $(window).width();
+      function isDouble() {
+        windowSize = $(window).width();
+        if (windowSize >= 1488) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+      function changeClassToMobile() {
+          $(".change")
+            .removeClass("hard")
+            .removeClass("own-size")
+            .removeClass("fixed");
+      }
+      function deleteDescription() {
+        $(".delete").remove();
+      }
+
+      function loadApp() {
+          if (!isDouble()) {
+          deleteDescription();
+        }
+        if (windowSize <= 1488) {
+          $("#forMobile").append(
+            "<p>*モバイル向けの簡易表示です。PCでの閲覧をおすすめします。</p>"
+          );
+        }
+        if (windowSize <= 1488) {
+          changeClassToMobile();
+        }
+        var flipbook = $("#flipbook");
+        var mode = "double";
+        if (isDouble()) {
+          mode = "double";
+        } else {
+          mode = "single";
+        }
+        if (flipbook.width() == 0 || flipbook.height() == 0) {
+          setTimeout(loadApp, 10);
+          return;
+        }
+
+        flipbook.turn({
+          pages: 10,
+          elevation: 50,
+          duration: 1000,
+          autoCenter: true,
+          display: mode,
+
+          when: {
+            turning: function (e, page, view) {
+              var book = $(this),
+                currentPage = book.turn("page"),
+                pages = book.turn("pages");
+
+              if (currentPage > 3 && currentPage < pages - 3) {
+                if (page == 1) {
+                  book.turn("page", 2).turn("stop").turn("page", page);
+                  e.preventDefault();
+                  return;
+                } else if (page == pages) {
+                  book
+                    .turn("page", pages - 1)
+                    .turn("stop")
+                    .turn("page", page);
+                  e.preentDefault();
+                  return;
+                }
+              } else if (page > 3 && page < pages - 3) {
+                if (currentPage == 1) {
+                  book
+                    .turn("page", pages - 1)
+                    .turn("stop")
+                    .turn("page", page);
+                  e.preventDefault();
+                  return;
+                }
+              }
+
+              if (page >= 2) $("#flipbook .p2").addClass("fixed");
+              else $("#flipbook .p2").removeClass("fixed");
+
+              if (page < book.turn("pages"))
+                $("#flipbook .p9").addClass("fixed");
+              else $("#flipbook .p9").removeClass("fixed");
+
+              if (page != 1 && page != book.turn("pages"))
+                $(" #flipbook .tabs").fadeIn(500);
+              else $(" #flipbook .tabs").hide();
+            },
+            turned: function (e, page, view) {
+              var book = $(this);
+              if (page != 1 && page != book.turn("pages"))
+                $(" #flipbook .tabs").fadeIn(500);
+              else $(" #flipbook .tabs").hide();
+
+              book.turn("center");
+              if (isDouble()) {
+                updateTabs();
+              }
+            },
+          },
+        });
+
+        Hash.on("^page\/([0-9]*)$", {
+          yep: function (path, parts) {
+            var page = parts[1];
+
+            if (page !== undefined) {
+              if ($(" #flipbook").turn("is"))
+                $(" #flipbook").turn("page", page);
+            }
+          },
+          nop: function (path) {
+            if ($(" #flipbook").turn("is")) $(" #flipbook").turn("page", 1);
+          },
+        });
+      }
+
+      loadApp(); //とりあえず読み込み
+
+      var ctx = document.getElementById("languages").getContext("2d");
+      var chart = new Chart(ctx, {
+        type: "radar",
+        data: {
+          labels: [
+            "HTML/CSS",
+            "JavaScript",
+            "Java",
+            "Swift",
+            "Go",
+            "C",
+            "Python",
+            "Rails",
+          ],
+          datasets: [
+            {
+              label: "Level",
+              data: [4, 4, 4, 3, 3, 2, 2, 3],
+              fill: true,
+              backgroundColor: "rgba(255, 99, 132, 0.2)",
+              borderColor: "rgb(255, 99, 132)",
+              pointBackgroundColor: "rgb(255, 99, 132)",
+              pointBorderColor: "#fff",
+              pointHoverBackgroundColor: "#fff",
+              pointHoverBorderColor: "rgb(255, 99, 132)",
+            },
+          ],
+        },
+        options: {
+          maintainAspectRatio: true,
+          legend: { position: "bottom" },
+          scale: {
+            pointLabels: {
+              fontSize: 25,
+            },
+            ticks: {
+              fontSize: 12,
+              beginAtZero: true,
+              suggestedMax: 5,
+              stepSize: 1,
+            },
+            gridLines: {
+              display: true,
+              color: "rgb(100,100,100)",
+            },
+          },
+        },
+
+        // Configuration options go here
+      });
+
+      var ctx = document.getElementById("others").getContext("2d");
+      var chart = new Chart(ctx, {
+        type: "radar",
+        data: {
+          labels: [
+            "English",
+            "Illustrator",
+            "PhotoShop",
+            "Nginx",
+            "MySQL",
+            "AWS",
+            "Docker",
+            "Jenkins",
+          ],
+          datasets: [
+            {
+              label: "Level",
+              data: [3, 3, 3, 3, 3, 3, 3, 3],
+              fill: true,
+              backgroundColor: "rgba(0, 121, 194, 0.2)", //線の中の塗りつぶし色
+              borderColor: "rgb(0, 121, 194)", //線自体の色
+              pointBackgroundColor: "rgb(0, 121, 194)",
+              pointBorderColor: "#fff",
+              pointHoverBackgroundColor: "#fff",
+              pointHoverBorderColor: "rgb(0, 121, 194)",
+            },
+          ],
+        },
+        options: {
+          legend: { position: "bottom" },
+          scale: {
+            display: true,
+            pointLabels: {
+              fontSize: 25,
+            },
+            ticks: {
+              display: true,
+              beginAtZero: true,
+              suggestedMax: 5,
+              stepSize: 1,
+            },
+            gridLines: {
+              display: true,
+              color: "rgb(100,100,100)",
+            },
+          },
+        },
+      });
+      //画面の大きさが変わった時に再読み込みする(reload以外の方法を試したがうまくいかなかった)
+      $(window).resize(function () {
+        if (windowSize>1488 && $(window).width() <= 1488) {
+          windowSize=$(window).width();
+          location.reload()
+        }else if(windowSize<=1488 && $(window).width() >1488){
+           windowSize = $(window).width();
+          location.reload()
+        }
+      });
+    </script>
+  </body>
+</html>
